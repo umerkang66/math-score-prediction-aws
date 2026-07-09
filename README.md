@@ -59,10 +59,9 @@ An end-to-end Machine Learning web application designed to predict a student's m
 
 ## Deployment
 
-The application is deployed on an **AWS EC2** instance.
+The application is deployed on AWS (hosted on an AWS EC2 instance).
 
 ### System Architecture
 - **WSGI Server:** Gunicorn serves the Flask web application ([application.py](file:///D:/Workspace/datascience-projects/math_marks_prediction/application.py)).
 - **Reverse Proxy:** Nginx handles incoming HTTP traffic and proxies requests to the Gunicorn service on port 5000.
 - **Service Management:** Managed as a systemd service to ensure continuous uptime and automatic recovery.
-- **Live URL:** [Insert EC2 Instance Public DNS/IP here]
