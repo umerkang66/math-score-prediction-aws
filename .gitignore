@@ -56,7 +56,7 @@ models/
 checkpoints/
 saved_models/
 weights/
-
+linkedin.txt
 # Logs & experiment tracking
 logs/
 *.log
