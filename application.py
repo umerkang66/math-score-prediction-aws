@@ -30,7 +30,7 @@ def predict():
             writing_score=float(request.form.get("writing_score")),
         )
 
-        # Convert to pandas DataFrame matching preprocessor features
+        # Convert to pandas DataFrame matching preprocessor features.
         pred_df = data.get_data_as_data_frame()
 
         # Run predict pipeline
